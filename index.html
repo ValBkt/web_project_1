@@ -3,8 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./styles/normalize.css" />
-        <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="stylesheet" href="./pages/index.css">
         <title>Learning how to learn</title>
     </head>
     <!--Header block-->
@@ -18,10 +17,11 @@
                     <a href="#" class="header__link">Learn more→</a>
                 </p>
                 <div><img src="./images/header-image.png" alt="" class="header__main-illustration" /></div>
-                <div class="header__square-pic"></div>
+                <div class="header__square-pic rotating"></div>
             </header>
-            <!--Description block-->
+            <!-- Main Content -->
             <main class="content">
+                <!--Description block-->
                 <section class="description">
                     <article class="two-columns">
                         <h2 class="two-columns__brief">The main problem with education</h2>
@@ -41,6 +41,72 @@
                             </p>
                         </div>
                     </article>
+                </section>
+                <!--Techniques block-->
+                <section class="techniques">
+                    <h2 class="section-title">Learning Techniques</h2>
+                    <p class="section-subtitle">Five Strategies from Barbara Oakley</p>
+                    <ul class="cards">
+                        <li class="cards__item">
+                            <img class="cards__image" src="./images/cards-attention.png" alt="Two Ways of Thinking" />
+                            <h3 class="cards__title">Two Ways of Thinking</h3>
+                            <p class="cards__description">Deep understanding comes from being able to toggle back and forth between focused and diffused thinking.</p>
+                        </li>
+                        <li class="cards__item">
+                            <img class="cards__image" src="./images/cards-recall.png" alt="Recall" />
+                            <h3 class="cards__title">Recall</h3>
+                            <p class="cards__description">Improving your ability to remember key bits of information helps to connect different parts of the brain.</p>
+                        </li>
+                        <li class="cards__item">
+                            <img class="cards__image" src="./images/cards-interleaving.png" alt="Interleaving" />
+                            <h3 class="cards__title">Interleaving</h3>
+                            <p class="cards__description">When you learn multiple skills at the same time, they reinforce each other.</p>
+                        </li>
+                        <li class="cards__item">
+                            <img class="cards__image" src="./images/cards-question.png" alt="Questions" />
+                            <h3 class="cards__title">Questions</h3>
+                            <p class="cards__description">When listening to your teacher, think up a good question, something that you're really itching to know.</p>
+                        </li>
+                        <li class="cards__item">
+                            <img class="cards__image" src="./images/cards-competence.png" alt="Illusion of Competence" />
+                            <h3 class="cards__title">Illusion of Competence</h3>
+                            <p class="cards__description">Test yourself, write it down, tell other people, and repeat the process in different settings. Only then can you be truly certain you've understood something.</p>
+                        </li>
+                    </ul>
+                </section>
+                <!--Video block-->
+                <section class="video">
+                    <h2 class="section-title">TED talks</h2>
+                    <p class="section-subtitle">For lovers of procrastination</p>
+                    <div class="video__iframes">
+                        <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" width="515" height="316" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                        <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" width="515" height="316" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </section>
+                <!--Oakley block-->
+                <section class="oakley">
+                    <article class="two-columns">
+                        <h2 class="two-columns__brief">Barbara Oakley’s story.</h2>
+                        <div class="two-columns__main-text">
+                            <p class="two-columns__paragraph">
+                                Math didn't come naturally to Barbara in childhood. She thought of herself as more of a humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after school she enlisted in the
+                                army, who sent her to learn Russian. After several years of service, during which she rose to the rank of Captain, Barbara left the army and decided to study engineering. In was during this time that she
+                                developed her learning methodology as she was forced to reprogram her brain for a different kind of learning. It turns out that when something doesn't come naturally to you, having to work hard to gain the
+                                knowledge that other people may get at first glance gives you a deeper, more comprehensive understanding of the subject matter.
+                            </p>
+                        </div>
+                    </article>
+                </section>
+                <!--Feynman block-->
+                <section class="feynman">
+                    <h2 class="feynman__title">The Feynman Technique</h2>
+                    <p class="feynman__subtitle">Learn without forgetting</p>
+                    <a href="#" class="feynman__link">More →</a>
+                    <img
+                        class="feynman__image"
+                        src="./images/feynman.png"
+                        alt="A picture of Richard Feynman, a world-renowned quantum physicist. The Feynman Technique is derived from his studying methods when he was a student at Princeton."
+                    />
                 </section>
                 <!--Digits block-->
                 <section class="digits">
@@ -89,16 +155,22 @@
                         </li>
                     </ul>
                 </section>
-                <!--Feynman block-->
-                <section class="feynman">
-                    <h2 class="feynman__title">The Feynman Technique</h2>
-                    <p class="feynman__subtitle">Learn without forgetting</p>
-                    <a href="#" class="feynman__link">More →</a>
-                    <img
-                        src="./images/feynman.png"
-                        alt="A picture of Richard Feynman, a world-renowned quantum physicist. The Feynman Technique is derived from his studying methods when he was a student at Princeton."
-                        class="feynman__image"
-                    />
+                <!--Khan block-->
+                <section class="khan">
+                    <div class="khan__container">
+                        <p class="khan__author">Salman Khan</p>
+                        <h2 class="khan__title">The One World Schoolhouse</h2>
+                        <p class="khan__quote">
+                            Sal Khan's passion and innovation is transforming learning for millions of students worldwide. The One World Schoolhouse is a must-read for all who are committed to improving education so students everywhere can
+                            gain the skills and knowledge to be successful in school, careers and life.
+                        </p>
+                        <p class="khan__quote-author">George Lucas</p>
+                        <p class="khan__quote-author-subline">Filmmaker</p>
+                        <div class="khan__book-container">
+                            <img class="khan__book-pic" src="./images/khan-book-2.png" alt="The One World School House book" />
+                            <a href="#" class="khan__buy-link link">Buy book →</a>
+                        </div>
+                    </div>
                 </section>
                 <!--Kaufman block-->
                 <section class="kaufman">
@@ -155,6 +227,33 @@
                         </li>
                     </ul>
                     <div class="kaufman__triangle"></div>
+                </section>
+                <!--Resources block-->
+                <section class="resources">
+                    <h2 class="section-title">Useful resources</h2>
+                    <p class="section-subtitle">Further materials on learning techniques and hacks.</p>
+                    <ul class="resources__logo-zone">
+                        <li>
+                            <a href="#" class="link">
+                                <img class="resources__logo" src="./images/resources-tedED.png" alt="TEDEd logo" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <img class="resources__logo" src="./images/resources-Medium.png" alt="Medium logo" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <img class="resources__logo" src="./images/resources-dezeen.png" alt="de zeen logo" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="link">
+                                <img class="resources__logo" src="./images/resources-goodreads.png" alt="goodreads logo" />
+                            </a>
+                        </li>
+                    </ul>
                 </section>
             </main>
             <!--Footer block-->
