@@ -1,4 +1,4 @@
-# Project Spring 1 web_project_1
+# Project Sprint 2 web_project_1
 
 ## Overview
 
