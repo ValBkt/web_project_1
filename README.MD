@@ -1,4 +1,4 @@
-# Project Sprint 2 web_project_1
+# Project Sprint 2 
 
 ## Overview
 
